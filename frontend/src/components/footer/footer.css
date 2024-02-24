@@ -15,7 +15,7 @@
     font-size: 18px;
 }
 .footer-left-top span{
-    color:aqua;
+    color:red;
     font-weight: 700;
     font-size: 20px;
 }
@@ -43,7 +43,7 @@
     cursor: pointer;
 }
 .footer-right button:hover{
-    background-color: aqua;
+    background-color: red;
 }
 .footer-right-register button:hover{
     background-color: #5cb85c;

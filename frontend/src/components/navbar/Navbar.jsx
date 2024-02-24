@@ -7,7 +7,7 @@ const Navbar = () => {
     <div className='navbar'>
         <div className='navbar-left'>
             <img src={icon} alt='icon'></img>
-            <h3>T<span>r</span>K<span>d</span></h3>
+            <h2>T<span>r-</span>K<span>d </span></h2>
         </div>
         <div className='navbar-right'>
             <div><a href='/Home'>Home</a></div>
