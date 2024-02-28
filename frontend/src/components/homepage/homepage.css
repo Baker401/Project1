@@ -1,8 +1,9 @@
 .homepage{
     display: flex;
     flex-direction: column;
-    height: 100vh;
-    background-color: #4be0ef;
+    height: 100%;
+    background-color: rgb(210, 253, 253);
+    font-family: cursive;
 }
 .homepage-middle{
     height: 100vh;
@@ -13,12 +14,15 @@
     display: flex;
     align-items: center;
 }
+.homepage-middle-left img{
+    height: 400px;
+    margin-left: 100px;
+}
 .homepage-middle-right{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: flex-end;
-    background-image: linear-gradient(to right, #4be0ef, #00415a);
     color: black;
     text-align: right;
 }
@@ -29,11 +33,15 @@
     color: red;
 }
 .homepage-middle-right-decoration{
-    border-bottom: 1px white solid;
+    border-bottom: 1px red solid;
     width: 300px;
     margin-right: 80px;
 }
 .homepage-middle-right-data{
+    color: darkolivegreen;
     margin-right: 80px;
-    color: #fff;
+}
+.homepage-middle-right-data span{
+    color: black;
+    font-weight: 600;
 }

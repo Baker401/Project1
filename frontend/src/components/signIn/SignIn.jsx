@@ -1,18 +1,15 @@
 import React from 'react';
 import './signIn.css';
 import {Navbar} from '../../components';
-import animation from '../../assets/animation.gif';
-import login_icon from '../../assets/login_icon.png';
+import {home_icon, login_icon} from '../../assets';
 
 const SignIn = () => {
   return (
     <div className='signIn'>
-        <div className='signIn-top'>
-            <Navbar></Navbar>
-        </div>
+        <div className='signIn-top'><Navbar /></div>
         <div className='signIn-bottom'>
           <div className='signIn-bottom-left'>
-            <img src={animation} alt='animation'></img>
+            <img src={home_icon} alt='icon'></img>
           </div>
           <div className='signIn-bottom-right'>
             <div className='signIn-bottom-right-form'>
