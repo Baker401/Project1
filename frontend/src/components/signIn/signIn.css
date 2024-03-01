@@ -2,47 +2,61 @@
     display: flex;
     flex-direction: column;
     height: 100vh;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color: rgb(210, 253, 253);
+    font-family: cursive;
 }
 .signIn-bottom{
-    background-image: url(../../assets/homepage_background.jpg);
-    height: 100vh;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
     display: flex;
-    flex-direction: column;
-    color: #fff;
-    justify-content: center;
-    align-items: flex-end;
-    text-align: right;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    justify-content: space-between;
+    align-items: center;
+    height: 100vh;
 }
-.signIn-bottom form{
+.signIn-bottom-left{
+    display: flex;
+    align-items: center;
+}
+.signIn-bottom-left img{
+    height: 400px;
+    margin-left: 100px;
+}
+.signIn-bottom-right{
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+.signIn-bottom-right form{
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-right: 300px;
+    margin-right: 200px;
 }
-.signIn-bottom-form-heading{
-    font-size: 20px;
+.signIn-bottom-right-form-heading{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
-.signIn-bottom-form-label{
-    margin: 20px 0px;
+.signIn-bottom-right-form-heading img{
+    height: 107px;
+    width: 160px;
+}
+.signIn-bottom-right-form-label{
     display: flex;
     flex-direction: column;
     align-items:flex-start;
+    color: red;
+    font-size: 17px;
+    font-weight: 500;
 }
-.signIn-bottom-form-label input{
+.signIn-bottom-right-form-label input{
     height: 30px;
     width: 300px;
-    color: #fff;
+    color: black;
     background-color: transparent;
     border: none;
-    border-bottom: 1px #fff solid;
+    border-bottom: 1px black solid;
     margin-top: -15px;
 }
-.signIn-bottom-form-button-submit{
+.signIn-bottom-right-form-button input{
     height: 35px;
     width: 130px;
     border: none;
@@ -51,17 +65,21 @@
     font-weight: 600;
     margin: 20px 0px;
     cursor: pointer;
-}
-.signIn-bottom-form-button-submit:hover{
-    background-color: #5cb85c;
-}
-.signIn-bottom-form-login{
-    font-size: 17px;
-}
-.signIn-bottom-form-login a{
-    text-decoration: none;
+    background-color: #2eca2e;
     color: #fff;
 }
-.signIn-bottom-form-login a:hover{
-    color: aqua;
+.signIn-bottom-right-form-button input:hover{
+    background-color:rgb(37, 228, 37);
+}
+.signIn-bottom-right-form-login{
+    font-size: 17px;
+}
+.signIn-bottom-right-form-login a{
+    text-decoration: none;
+    color:blue;
+    margin-left: 5px;
+}
+.signIn-bottom-right-form-login a:hover{
+    color: red;
+    font-weight: 600;
 }

@@ -6,3 +6,4 @@ export {default as SignIn} from './signIn/SignIn';
 export {default as ServicesPage} from './servicesPage/ServicesPage';
 export {default as ContactPage} from './contactPage/contactPage';
 export {default as AboutPage} from './aboutPage/AboutPage';
+export {default as Contacts} from './contacts/Contacts';
