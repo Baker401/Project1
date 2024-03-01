@@ -18,6 +18,7 @@
     display: flex;
     width: 1300px;
     justify-content: space-around;
+    margin-bottom: 30px;
 }
 .services-middle-bottom img{
     height: 50px;
@@ -81,4 +82,8 @@
 .services-middle-bottom-right-c2 h3{
     color: red;
     margin-bottom: -10px;
+}.services-middle-top h1{
+    color: red;
+    padding-bottom: 2px;
+    border-bottom: 2px black solid ;
 }

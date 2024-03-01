@@ -11,6 +11,7 @@
     align-items: center;
     justify-content: center;
     height: 100vh;
+    margin: 30px 0px;
 }
 .contactPage-middle-top{
     display: flex;
@@ -18,7 +19,7 @@
     align-items: center;
 }
 .contactPage-middle-top h1{
-    color:rebeccapurple;
+    color:red;
     border-bottom: 2px black solid;
 }
 .contactPage-middle-bottom-contacts{

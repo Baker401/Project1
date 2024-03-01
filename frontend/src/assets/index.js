@@ -9,3 +9,4 @@ export {default as contact1} from '../assets/Contacts/contact1.jpg';
 export {default as contact2} from '../assets/Contacts/contact2.jpg';
 export {default as contact3} from '../assets/Contacts/contact3.jpg';
 export {default as home_icon} from './home_icon.png';
+export {default as aboutUs_image} from './aboutUs_image.png';

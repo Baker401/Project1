@@ -36,7 +36,7 @@ const contactPage = () => {
             <Carousel swipeable={true} draggable={false} showDots={true} ssr={true} infinite={true} autoPlay={true} autoPlaySpeed={3000} keyBoardControl={true} itemClass='carousel-item' customTransition="all .5" transitionDuration={500} responsive={responsive} deviceType='desktop' containerClass='carousel-container'>
               <div><Contacts image={contact1} name='Rohit Kumar Singh' role='Frontend Dev' email='rohitsingh20082002@gmail.com'></Contacts></div>
               <div><Contacts image={contact2} name='Adam Baker' role='Backend Dev' email='adbaker1479@gmail.com'></Contacts></div>
-              <div><Contacts image={contact3} name='Seun' role='Frontend Dev' email='xyz@gmail.com'></Contacts></div>
+              <div><Contacts image={contact3} name='Seun' role='Frontend Dev' email='oyedeleoluwaseun56@gmail.com'></Contacts></div>
             </Carousel>
           </div>
         </div>
